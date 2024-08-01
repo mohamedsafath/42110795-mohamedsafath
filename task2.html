@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+   <h1 style="text-align: center;">Student Data</h1>
+   <form action="/submit_form.php" method="post">
+    <table align="center" border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <td>
+                <label for="Student Id">Student Id</label>
+            </td>
+            <td>
+                <input type="text"  id="Student Id" name="Student Id" placeholder=" Enter Student Id" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+               <label for="First Name">First Name</label> 
+            </td>
+            <td>
+                <input type="text" id="First Name" name="First Name" placeholder="Enter First Name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+               <label for="Last Name">Last Name</label> 
+            </td>
+            <td>
+                <input type="text" id="Last Name" name="Last Name" placeholder="Enter Last Name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="dob">Date of Birth</label>
+            </td>
+            <td>
+                <input type="date" id="dob" name="dob">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">email</label>
+            </td>
+            <td>
+                <input type="email" id="email" name="email" placeholder="Enter email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="phone">phone number</label>
+            </td>
+            <td> 
+                <input type="phone" id="phone" name="phone" placeholder="Enter phone no" required>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"
+            style="text-align: center;">
+        <button type="submit">submit</submit>
+        <button type="reset">reset</reset>
+    </td>
+        </tr>
+    </table>
+   </form>
+</body>
+</html>
